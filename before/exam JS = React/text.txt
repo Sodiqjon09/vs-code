@@ -1,0 +1,123 @@
+data types 
+
+1. Primitive types (Oddiy turlar)
+
+String (Matn)
+Number (Son)
+Boolean (Mantiqiy qiymat)
+Null (Bo'sh qiymat)
+Undefined (Aniqlanmagan)
+Symbol (Simvol)
+BigInt (Katta sonlar)
+
+2. reference types (Murakkab turlar)
+Object (ma'lumotlar to'plamini )
+Array (bir xil yoki turli xil ma'lumot turlaridan tashkil topgan elementlar ro'yxati. )
+Function (bajarilishi mumkin bo'lgan kodlar to'plami bo'lib, ularni qayta va qayta ishlatish uchun chaqirish mumkin.)
+
+
+string methods
+
+charAt(index): Berilgan indeksdagi belgini qaytaradi.
+
+indexOf(searchValue, fromIndex): Berilgan qiymatning birinchi uchragan indeksini qaytaradi.
+
+lastIndexOf(searchValue, fromIndex): Berilgan qiymatning oxirgi uchragan indeksini qaytaradi.
+
+toLowerCase(): Stringni kichik harflarga o‘girish.
+
+toUpperCase(): Stringni katta harflarga o‘girish.
+
+replace(searchValue, newValue): Berilgan qiymatni yangi qiymatga almashtiradi (birinchi uchrashuv).
+
+repeat(count): Stringni berilgan marta takrorlaydi.
+
+trim(): Stringning boshidagi va oxiridagi bo'sh joylarni olib tashlaydi.
+
+split(separator, limit): Stringni berilgan ajratgich bo‘yicha massivga bo‘ladi.
+
+includes(searchValue, fromIndex): Berilgan qiymat stringda mavjudligini tekshiradi (true/false).
+
+slice(start, end): Stringni berilgan boshlanish va tugash indekslari orasidagi bo‘lakni qaytaradi.
+
+substring(start, end): Berilgan boshlanish va tugash indekslari orasidagi bo‘lakni qaytaradi (indekslar o'rni almashishi mumkin).
+
+substr(start, length): Berilgan boshlanish indeksidan boshlab berilgan uzunlikdagi stringni qaytaradi.
+
+
+'Hello, world!'.substr(0, 5); // Hello
+
+
+Obyekt – bu kalit-qiymat juftliklari to‘plami.
+
+Arrray methods:
+
+// 1. push() - array oxiriga element qo'shadi. va bizga arrayning length qaytaradi. va elemen ning length qaytaradi
+// 4. unshift() - array boshiga element qo'shadi. va bizga arrayning length qaytaradi. va elemen ning length qaytaradi
+
+// 2. pop() array ni oxiridagi elementni o'chirib beradi, va o'chirilgan element ni qaytarad
+// 3. shift() array ni boshidan elementni o'chirib beradi, va o'chirilgan element ni qaytaradi
+
+// 5. concat() - arraylarni birlashtirib, yangi array hosil qiladi
+// 6. splice(start, end. addElements) - start boshlab end gacha elementlarni qirqib tashlaydi. end ni ham oladi va o'chirilgan elementlar o'rniga boshqa element qo'shadi. o'chirib tashlangan elementlarni array ko'rinishida qaytaradi
+
+// 7. slice(start, end. addElements) - start boshlab end gacha element qirqib beradi. end kirmaydi. va yangi array qaytaradi
+// 8. toString() - array elementlarini vergul bilan birlashtirib string hosil qilib beradi.
+
+// 9. join() - array elementlarni birlashtirib string hosil qilib beradi. toString() dan farqi, bunda elementlar orasiga biror element qo'shamiz
+// 10. flat() bu metod massiv ichidagi ichki massivlarni birlashtirish uchun ishlatilinadi
+if else, switch case, ternary operator.
+
+if...else: shartlarni tekshirish uchun.
+switch...case: Ko‘p holatlarni tekshirish uchun
+Ternary operator: Kichik va qisqa shartlarni tekshirish uchun
+
+loop:
+
+for takrorlanish operatori.
+for...in kalitlar uchun.
+for...of qiymatlar uchun ishlatiladi.
+while takrorlanish operatori.
+do while ham takrorlanish operatori. 
+
+for va while bir xil ishlaydi farqi sintaksisida.
+while va for tekshirib kegin ishlaydi do while ishlab kegin tekshiradi
+
+server:
+
+get olib kelish
+poot: o'zgartirish
+post jo'natish
+delete o'chirish
+
+function:
+
+decloration function
+
+function name(params) {
+    console.log(params);
+}
+
+function expression
+const name = function () {
+    console.log(name);
+}
+;
+
+arrow function
+const name = () => {
+  console.log(name);
+};
+
+OOP
+
+Kodning qayta foydalanishi (Inheritance orqali).
+Murakkablikni boshqarish (Encapsulation va Abstraction yordamida).
+Tartiblangan kod yaratish imkoniyati.
+
+
+export && import
+
+export: Kodni boshqa faylda foydalanish uchun eksport qiladi.
+
+import: Eksport qilingan kodni boshqa faylda yuklab ishlatadi.

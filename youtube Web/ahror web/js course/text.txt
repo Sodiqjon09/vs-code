@@ -1,0 +1,224 @@
+1-dars 
+
+
+// Html Buyruqlar to'plami
+
+
+/////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////
+
+
+2-dars
+
+
+// no-comment
+
+
+/////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////
+
+
+3-dars
+
+1. <head></head> ni ichiga script deb ochib kod yozish
+2. <body/> ni tepasiga script deb ochib kod yozish
+3. script fayl ochib kod yozish
+
+/////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////
+
+4-dars
+
+// github code
+
+/////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////
+
+
+5-dars. conole.log()
+
+1. kodning natijasini kuzatish: Kodning har bir qismi qanday natija berayotganini real vaqtda ko'rish mumkin.
+2. Xatolarni topish: Kodingizda xatolarni qayerda paydo bo'layotganini aniqlash osonlashadi.
+3. O'zgaruvchilarni tekshirish: O'zgaruvchilarning qiymatini har bir qadamda kuzatish mumkin.
+4 .Funksiyalarning ishlashini sinash: Funksiya qanday ma'lumot olganini yoki qanday natija qaytarganini tekshirish imkonini beradi.
+
+/////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////
+
+
+6-dars. varibles
+
+var // blok scoke ichida elon qilinsa global scope chaqirsa bo'ladi va  u eski usul tavsiya berilmaydi kodda xarxil muammolar keltiradil
+let const blok scope da elon qilinsa global scope ga chaqirib bo'lmaydi. ular o'zgaruvchilarni
+let qiymati o'zgaruvchi o'zgaruvchi
+const qiymati o'zgarmas o'zgaruvchi
+
+/////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////
+
+
+7-dars. O'zgaruvchilarni nomlash qoidalari
+
+o'zgaruvchila bu belgilardan boshqa belgilar bilan nomlanmaydi $ _ va Js dagi kalit sozlar bilan xam berilishi mumkin emas
+
+/////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////
+
+8-dars. Js data types 
+
+
+1. Primitive types (Oddiy turlar)
+
+String (Matn)
+Number (Son)
+Boolean (Mantiqiy qiymat)
+Null (Bo'sh qiymat)
+Undefined (Aniqlanmagan)
+Symbol (Simvol)
+BigInt (Katta sonlar)
+
+2. reference types (Murakkab turlar)
+Object (ma'lumotlar to'plamini )
+Array (bir xil yoki turli xil ma'lumot turlaridan tashkil topgan elementlar ro'yxati. )
+Function (bajarilishi mumkin bo'lgan kodlar to'plami bo'lib, ularni qayta va qayta ishlatish uchun chaqirish mumkin.)
+
+9-dars. String
+
+string (Matn, '' 1 talik qo'shtirnoqga yoziladi "" 2 talik qo'sh tirnoq ga va `` )
+string concatenation (o'zgaruvchilarni bir biriga qo'shish)
+getting characters (String dagi elementni index bo'yicha olish [] ichida)
+string length (length aniqlaydi 0 dan boshlab)
+
+string methods
+
+10-dars. String metohods
+
+
+1 Length (uzunligi)
+2 CharAt (charAt index bo'yicha element olib beradi)
+3 Includes (includes() kiritilgan elementni o'zgaruvchida bor yoki yo'qligini true/false qaytaradi)
+4 IndexOf (element bo'yicha index qidiradi va index oladi)
+5 Replace (bir element ni boshqa element bilan almashtirib beradi)
+6 Slice (kesib beradi)
+7 Split ( array ga o'zgartiradi)
+8 Substr ( substr index dan index gacha chaqirib oladi)
+9 ToLowerCase ( matn ni kichkina qilib beradi)
+10 ToUpperCase (matn ni katta qilib beradi)
+
+(1 Repeat
+2 EndsWith
+3 Matc
+4 StartsWith
+5 Substring)
+
+11-dars. Numbers
+
+no-comments
+
+12-dars. String
+
+no-comments
+
+13-dars. Data
+
+concat (arraylarni ni bir biriga qo'shadi)
+
+14.dars. Null and Undefined
+
+Undefined o'zgaruvchi qiymato berilmasa Undefined qaytaradi
+Null Matematik jihatdan 0 ga teng yoki bo'sh qiymat
+
+15-dars.Booleans & Comparisons
+
+boolean (true / false, mantiqiy ifoda)
+
+16-dars. Kuchli va Kuchsiz taqqoslash
+
+== (kuchsiz taqqoslash): Qiymatlar turini o'zgartirib solishtiradi.
+
+Masalan: 5 == "5" → true
+=== (kuchli taqqoslash): Qiymat va turini tekshiradi, turini o'zgartirmaydi.
+
+Masalan: 5 === "5" → false
+
+17-dars. Turlarni o'zgartirish
+
+typeof (typini aniqlydi)
+
+number ni String ga o'girish uchun String() metodidan foydalaniladi
+String ni Number ga o'zgartirish uchun Number() metodidan foydalaniladi agar Stringda son bo'lmasa O'zgartirganda NaN qaytaradi
+
+18-dars. Amaliyot
+
+no-comments
+
+19-dars. Kino
+
+no-comments
+
+20-dars. for loop 
+
+for loop (sikil takrorlanish operatori)
+
+21-dars. while loop 
+
+for loop (sikil takrorlanish operatori)
+
+
+sikil takrorlanish operatori
+
+for loop bilan while loop farqi sintaksisida 
+
+
+
+for while loop birinchi tekshirib kegin ishlaydi
+do while birinchi bajarib kegin tekshiradi
+farqi
+
+22-dars. if statement
+
+if (shartlar operatori)
+
+23-dars. else if statements
+
+else operatori: agar oldingi if yoki shartlaridan biri ham bajarilmasa (ya'ni, rost bo'lmasa), else ichidagi kod ishlaydi.
+
+24-dars. OR || va AND &&
+
+OR || yoki belgisi (shartlardan qaysi biri birinchi tog'ri bo'lsa o'sha shart ni chiqaradi)
+
+And && va belgisi (shartlarni xammasi true bo'lsa chiqaradi)
+
+25-dars. Mantiqiy NOT (!)
+
+Mantiqiy NOT ! true false qiladi false true qiladi.
+
+26-dars. Break and Continue
+
+break siklni butunlay to'xtatadi.
+continue esa faqat shartni to'xtatib, keyingisini davom ettiradi.
+
+27-dars. Switch Case
+
+switch case — ko‘plab shartlarni tekshiriadigan operator
+
+if-else murakkab shartlarni tekshirishda yaxshi.
+
+switch ko‘plab aniq qiymatlarni taqqoslashda foydali.
+
+28-dars. block scope
+
+Global o'zgaruvchilar hamma joyda ko'rinadi.
+
+block scope esa faqat o'zgaruvchi e'lon qilingan blok ichida ko'rinadi.
+
+Block scope o'zgaruvchilari boshqa bloklarda ko'rinmaydi.
+
+29-dars. Amaliyot
